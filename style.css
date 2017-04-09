@@ -1,0 +1,174 @@
+@charset "utf-8";
+/*头部样式*/
+body{
+	padding:0;
+	margin:0;
+	font-family: '微软雅黑 Light','微软雅黑';
+	}
+/*初始化，为了去除默认样式*/
+ul,li{
+	padding: 0;
+	margin: 0;
+}
+.content{
+	width:100%;
+	mini-width:1000px;
+	margin:0 auto;
+	}
+.header{
+	width:1000px;
+	height:100px;
+	background:#E1E1E1;
+	margin: 0 auto;
+	}
+.header img{
+	float:left;
+	}
+.quickLink{
+	width:30%;
+	height:50px;
+	float:right;
+	text-align:center;
+	margin-top:32px;
+	}
+.quickLink a{
+	color:#5F69E7;
+	text-decoration:none;
+	display:inline-block;
+	width:60px;
+	height:36px;
+	font-size:12px;
+	line-height:36px;
+	border:1px #5F69E7 solid;
+
+	}
+.quickLink a:hover{
+	box-shadow: 0 0 10px #A3D2E0;
+}
+/* ------------------导航样式-------------------------------*/
+.nav{
+	width: 100%;
+	height: 60px;
+	background: #0a86d4;
+
+}
+.nav ul li{
+	text-align: center;
+	list-style: none;
+	float: left;
+	width: 100px;
+	height:60px;
+	line-height: 60px;
+}
+.nav ul a li{
+	display: block;
+	width: 100px;
+	height:60px;
+	color:white;
+	text-decoration: none;
+}
+.nav ul{
+	width: 800px;
+	margin: 0 auto;
+}
+.nav ul li:hover{
+	background: #0a507d;
+	transition: 2s;
+}
+.titleColor{
+	color:#36F;
+	font-weight:bold;
+	}
+/* ------------------导航样式结束-------------------------------*/
+/* ------------------banner 开始-------------------------------*/
+.banner img{
+	width: 100%;
+	background: no-repeat;
+	background-size: 100%;
+}
+
+.swiper-container{
+	width: 100%;
+	height: 250px;
+}
+
+.container{
+	width:1000px;
+	margin:0 auto;
+	border:1px #ccc solid;
+	}
+	
+.row{
+	width:100%;
+	height:280px;
+	margin:20px 0 0 0;
+	}
+	
+.cols{
+	width:300px;
+	height:260px;
+	float:left;
+	margin:0 0 0 25px;
+	}
+	
+#cols1-2{
+	width:350px;
+	}
+#cols1-2 ul{
+	margin:40px 0 0 0;
+	}	
+#cols1-2 ul li{
+	list-style:none;
+	margin-top:10px;
+	}
+#cols1-2 ul li a{
+	color:#787878;
+	text-decoration:none;
+	font-size:14px;
+    }
+#cols1-2 ul li a:hover{
+	color: #0a507d;
+	/*transition: 1s;*/
+    }
+	
+#cols1-3{
+	width:250px;
+	}
+#cols1-3 span{
+	font-size:20px;
+	}
+#cols1-3 p{
+	/*上 右 下 左*/
+	/*padding: 0 5px 0 5px;*/
+	padding: 0 5px;
+	}
+	           
+.channel{
+	font-size:12px;
+	}
+	
+.datetime{
+	float:right;
+	margin:0 10px 0 0;
+	font-size:12px;
+	color:#787878;
+	}
+	
+#newSwiper{
+	margin-top: 40px;
+	height: 220px;
+	}
+	
+.newTitle{
+	width: 100%;
+	height: 30px;
+	z-index: 999;
+	color: #ffffff;
+	line-height: 10px;
+	text-align: center;
+    position: absolute;
+	bottom: 0;
+	font-size: 14px;
+	background: #000;
+	opacity: 0.5;
+	}
